@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * @author jrimland
  */
 public class SimulationEngine {
-    private int numCustomers = 0;
+    private int numCustomers = 50484;
     private boolean isRunning = false;
     private ArrayList <Customer> customers;
     private ArrayList <Location> locations;
@@ -31,7 +31,7 @@ public class SimulationEngine {
     
     public boolean initializaSim()
     {
-        numCustomers = 0;
+        numCustomers = 109;
         
         return true;
     }
